@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import '../../presentation/widgets/widgets.dart';
 
-class ProgressScreen extends StatelessWidget {
+class ProgressScreen extends StatelessWidget with AppBarCustom {
   static const screenName = 'progress_screen';
   const ProgressScreen({super.key});
 
