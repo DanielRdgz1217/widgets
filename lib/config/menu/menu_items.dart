@@ -5,14 +5,12 @@ class MenuItem {
   final String subTitle;
   final String link;
   final IconData icon;
-  final String screenName;
 
   const MenuItem({
     required this.title,
     required this.subTitle,
     required this.link,
     required this.icon,
-    required this.screenName
   });
 }
 
@@ -21,12 +19,15 @@ List<MenuItem> appMenuItems = <MenuItem>[
     title: 'Botones',
     subTitle: 'Varios botones en Flutter',
     link: '/buttons',
-    icon: Icons.smart_button_outlined,
-    screenName: 'button_screen'),
+    icon: Icons.smart_button_outlined),
   const MenuItem(
     title: 'Tarjetas',
     subTitle: 'un contenedor estilizado',
     link: '/cards',
-    icon: Icons.credit_card,
-    screenName: 'card_screen'),
+    icon: Icons.credit_card),
+  const MenuItem(
+    title: 'ProgressIndicators',
+    subTitle: 'Generales y controlados',
+    link: '/progress',
+    icon: Icons.refresh_rounded),
 ];
