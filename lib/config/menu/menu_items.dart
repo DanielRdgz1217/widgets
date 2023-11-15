@@ -50,4 +50,9 @@ List<MenuItem> appMenuItems = <MenuItem>[
       subTitle: 'Listas infinitas y pull to refresh',
       link: '/infinite',
       icon: Icons.list_alt_rounded),
+  const MenuItem(
+      title: 'Animados',
+      subTitle: 'Cuadros animados',
+      link: '/animated',
+      icon: Icons.check_box_outline_blank_rounded),
 ];
