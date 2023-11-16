@@ -55,4 +55,14 @@ List<MenuItem> appMenuItems = <MenuItem>[
       subTitle: 'Cuadros animados',
       link: '/animated',
       icon: Icons.check_box_outline_blank_rounded),
+  const MenuItem(
+      title: 'Contador',
+      subTitle: 'Mostrar un contador',
+      link: '/counter-river',
+      icon: Icons.plus_one),
+  const MenuItem(
+      title: 'Cambiar tema',
+      subTitle: 'Cambiar tema de la aplicación',
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined),
 ];
